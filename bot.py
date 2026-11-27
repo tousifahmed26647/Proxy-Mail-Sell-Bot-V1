@@ -110,7 +110,7 @@ def db_setup():
     except sqlite3.OperationalError:
         pass # ইতিমধ্যে কলাম থাকলে এরর ইগনোর করবে
         
-    cursor.execute("INSERT OR IGNORE INTO settings (key, value) VALUES ('support_link', 'https://t.me/Jihad')")
+    cursor.execute("INSERT OR IGNORE INTO settings (key, value) VALUES ('support_link', 'https://t.me/Tousif404')")
     conn.commit()
 
 db_setup()
